@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thead{
+    font-size: 21px;
+}
+.TableData {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.TableData td, .TableData th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.TableData tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.TableData tr:hover {
+    background-color: #ddd;
+}
+
+.TableData th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+.button-group{
+    width: 100%;
+    text-align: center;
+}
+button{
+    outline: none;
+    border: none;
+    padding: 10px 15px; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit{
+    color: #333;
+    background-color: #ffc107; 
+    border-radius: 5px 0 0 5px;
+}
+.delete{
+    color: red;
+}

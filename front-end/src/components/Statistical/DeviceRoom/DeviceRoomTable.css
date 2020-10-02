@@ -1,0 +1,58 @@
+.select-name-deviceRoom {
+    display: inline-block;
+    width: 90%;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: none;
+    margin: 12px 61px;
+}
+
+.content-right {
+    margin-top: 60px;
+    float: right;
+    right: 0;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+label.lable-title-deviceRoom {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    color: #5656bf;
+}
+.thead{
+    font-size: 21px;
+}
+.TableDataStatistical {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.TableDataStatistical td, .TableDataStatistical th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.TableDataStatistical tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.TableDataStatistical tr:hover {
+    background-color: #ddd;
+}
+
+.TableDataStatistical th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
